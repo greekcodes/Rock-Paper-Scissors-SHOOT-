@@ -40,3 +40,5 @@ while True:
   
   print(f"Computer has {comp_right} answers right.")
   print(f"You have {user_right} answers right.")
+
+# this comment is absolutely useless
