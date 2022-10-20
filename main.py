@@ -6,10 +6,6 @@ while True:
   user_choice = input("Rock, paper, or scissors: ")
   user_choice = user_choice.lower().strip()
   comp_choice = random.choice(["rock" , "paper", "scissors"])
-
-  # print(f"Computer has {comp_right} answers right.")
-  # print(f"You have {user_right} answers right.")
-  
   print(f"Computer choose {comp_choice}. ")
   if user_choice == "rock" and comp_choice == "scissors":
     print("You win")
